@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
+:root {
+  --font-logo: 'Dancing Script', cursive;
+  --font-body: 'Alef', sans-serif;
+
+  --color-icon-tools: #03A9F4;
+  --color-text-tools: #707070;
+
+  --color-text-body: #4F4F4F;
 }
+
